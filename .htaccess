@@ -1,0 +1,27 @@
+RewriteEngine on
+
+RewriteRule ^beranda$ media.php?module=beranda [L]
+
+RewriteRule ^about$ media.php?module=about [L]
+
+RewriteRule ^product$ media.php?module=product [L]
+
+RewriteRule ^technology$ media.php?module=technology [L]
+
+RewriteRule ^faq$ media.php?module=faq [L]
+
+RewriteRule ^contact$ media.php?module=contact [L]
+
+RewriteRule ^aksi_contact$ media.php?module=aksi_contact [L]
+
+RewriteRule ^cart$ media.php?module=cart [L]
+
+RewriteRule ^testimoni$ media.php?module=testimoni [L]
+
+RewriteRule ^aksi_cart$ media.php?module=aksi_cart [L]
+
+RewriteRule ^identitas$ media.php?module=identitas [L]
+
+RewriteRule ^aksi_identitas$ media.php?module=aksi_identitas [L]
+
+RewriteRule ^detail-product-(.*)$ media.php?module=product&id=$1 [L]
